@@ -132,9 +132,135 @@ if(pass.length > 10 && pass.includes('!')) {
 //  }
 
 
-let numbers = [5,8,10,23,48,60]
- for (const number of numbers) {
-   if (number %  2 === 0) {
+// let numbers = [5,8,10,23,48,60]
+//  for (const number of numbers) {
+//    if (number %  2 === 0) {
       
-   console.log(`liczba ${number} jest parzysta`);}
- }
+//    console.log(`liczba ${number} jest parzysta`);}
+//  }
+
+//01.08.2023
+
+// let ourArray = [];
+// for (let i = 0; i < 5; i++) {
+//    ourArray.push(i);
+   
+// }
+// console.log(ourArray);
+
+
+// const numbers = [5,8,10,23,48,60];
+
+// for (const number of numbers) {
+//     console.log(number / 5);
+// }
+
+// const numbers = [5,8,10,23,48,60];
+
+// for (const number of numbers) {
+//       if( number % 2 === 0){
+//          console.log(`%cliczba ${number} jest parzysta`,'background-color: gold; color:black');
+//       }else{
+//          console.log(`licba ${number} jest nieparzysta`);
+//       }
+// }
+
+// const colors = [ 'red', 'gold', 'green']
+
+// colors.pop('blue')
+// console.log(colors);
+ 
+// 03.08.2023 Data-Lists
+
+// const drinks = ['pepsi', 'kawa', 'herbata']
+// const meals = ['schab', 'spagetti', 'burgery']
+// const menu = [...drinks, ...meals]
+// //console.log(... meals, ...drinks);
+
+// console.log(menu);
+
+
+// const numbers = [0, 0, 1, 1, 2, 2, 2]
+// const colors = ['red', 'green', 'blue', true, 123]
+// const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
+
+// const numbers2 = numbers.slice(0,2)
+
+// console.log(numbers2);
+
+// const numbers3 = numbers.slice(-3)
+// console.log(numbers3);
+
+// const randomStuff = colors.splice(-2)
+// console.log(randomStuff);
+
+// const newCars = cars.splice(2,4, 'test')
+// console.log(cars);
+
+// console.log(newCars);
+
+// const lit = ['c', 'd']
+
+// // console.log( lit);
+
+// lit.unshift('a','b')
+
+// lit.push('e','f')
+
+// console.log(lit);
+
+// console.log(lit.includes('c'));
+
+// const numbers = [1,2,3]
+
+// const food = ['🥮','🥪', '🧁']
+//  const kombi = [...numbers, ...food]
+
+//  console.log(kombi);
+
+//  const nKombi = numbers.concat(food)
+
+//  console.log(nKombi);
+
+
+
+// const tab = [1, 5, 13, 26, 48];
+
+// const multipliedTab = tab.map(x => x * 5);
+
+// console.log(multipliedTab);
+
+// // for (const num of multipliedTab) {
+// //    if (num % 2 === 0) {
+// //      console.log(num);
+// //    }
+// //  }
+
+//  for (const num of multipliedTab) {
+//     if (num % 2 === 0)
+//     {
+//       console.log(num);
+//     }
+//  }
+
+// const colors = ['blue']
+
+// colors.unshift('green')
+
+// colors.push('black')
+// console.log(colors);
+
+// for (let i = 0; i < colors.length; i++) {
+//    console.log(`moj ulubiony kolor to ${colors[i].toUpperCase()}`);
+   
+// }
+
+// const autos = 'Audi, Mercedes,  BMW, Nissan, Dodge'
+
+// const carsArr = autos.split(', ');
+
+// carsArr.length > 3 ?console.log('Jest ok') : console.log('Nie jest ok');
+
+// console.log(carsArr);
+
+
