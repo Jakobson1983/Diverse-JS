@@ -264,3 +264,67 @@ if(pass.length > 10 && pass.includes('!')) {
 // console.log(carsArr);
 
 
+//04.08.2023
+
+// function hello(name, age) {
+        
+//    console.log(`czesc mam na imie ${name}i mam ${age} lat`);
+// }
+
+// hello('Jakub', 40)
+
+// const days = ['wtorek', 'sroda', 'czwartek']
+
+// days.forEach(function(day){
+//    console.log(day);
+// }
+// )
+
+// const poleProstokata = (szerokosc, wysokosc) => console.log(szerokosc * wysokosc);
+// poleProstokata(5,4)
+
+// const hello = (name = 'drogi uzytkowniku') => {
+//    console.log(`Czesc ${name} jak sie masz?`);
+// }
+
+// hello('Klaudia')
+
+// let score; 
+
+// const add = (x , y) => {
+
+//    score = x + y
+   
+//    if (score % 2 === 0) {
+//       evenMsg()
+//    }else{
+// oddMsg()
+//    }
+// }
+
+
+// const evenMsg = () => {
+//    console.log(`Liczba ${score} jest parzysta`);
+// }
+
+
+// const oddMsg = () => {
+//    console.log(`Liczba ${score} jest nieparzysta`);
+// }
+
+// add()
+
+// 05-08.2023
+
+let C
+
+let temp 
+
+const fahrenheit = (c) => {
+     C = c
+     temp = C * 1.8 + 32
+
+     console.log(`${c}°C = ${temp}°F`);
+}
+
+fahrenheit(20)
