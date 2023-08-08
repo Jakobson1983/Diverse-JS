@@ -316,15 +316,96 @@ if(pass.length > 10 && pass.includes('!')) {
 
 // 05-08.2023
 
-let C
+// let Cel
 
-let temp 
+// let temp 
 
-const fahrenheit = (c) => {
-     C = c
-     temp = C * 1.8 + 32
+// const fahrenheit = (c) => {
+//      Cel = c
+//      temp = Cel * 1.8 + 32
 
-     console.log(`${c}°C = ${temp}°F`);
-}
+//      console.log(`${c}°C = ${temp}°F`);
+// }
 
-fahrenheit(20)
+// fahrenheit(20)
+// -----------------
+// const num = 10
+
+// const numbers = []
+
+// for (let index = 0; index < num; index++) {
+//    numbers.push(index)
+   
+// }
+
+// const checkNumbers = number => {
+//    if(number % 3 === 0 && number !== 0){
+//       console.log(`${number}jest podzielny przez 3`);
+//    }else{
+//       console.log(`${number} nie jest podzielny przez 3 lub ${number} = 0`);
+//    }
+// }
+
+// numbers.forEach(checkNumbers)
+
+// ---------------- 06-08.23
+
+//----------------- 07.08.23
+
+// function greet() {
+//    console.log('Hello');
+// }
+// greet()
+
+// const greet1 = function() {
+//    console.log('Hellloo');
+// }
+
+// greet1()
+
+// const greet2 = () => {
+//    console.log('helohello');
+// }
+// greet2()
+
+//--------------08.08.23
+
+// console.log('Witaj swiecie');
+
+// let tekst = 'Siemano'
+// console.log(tekst);
+
+// const e = 2.718228
+// alert(e)
+
+// let zmienna = 12
+
+// console.log(typeof zmienna);
+
+// zmienna = 'Jezyk Java Script'
+
+// console.log(typeof zmienna);
+
+// let opis = 'Java script to jezyk programowania'
+
+// console.log('informacja: '+ opis);
+
+// const test3 = document.getElementByTagName('pressed')
+
+// console.log(test3);
+
+// const header1 = document.querySelector('h1')
+
+// console.log(header1);
+
+// const heading = document.querySelector('h1')
+
+// console.log('heading');
+
+// const parAll = document.querySelectorAll('p')
+
+// console.log('parAll');
+
+const lilist = document.createElement('li')
+
+lilist.textContent = 'czesc'
